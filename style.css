@@ -1,0 +1,555 @@
+
+ body{
+  
+    font-family: "GE SS Two" !important;
+}
+ /* header */
+
+
+ #logo2 {
+    display: none;
+ }
+ 
+   /* line */
+a{
+    position: relative;
+
+}
+a::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    height:2px;
+    width: 0;
+    background-color: #BE5E28;
+    bottom:-7px;
+    transition: 0.3s;
+
+}
+a:hover{
+    cursor: pointer;
+    color: #fff;
+}
+a:hover::before{
+    width: 100%;
+
+}
+
+
+ /* header */
+ header{
+    background-image: url(img/Group-15.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+ 
+    color: white;
+ }
+  h1{
+    font-family: "GE SS Two Light ";
+    font-weight:600;
+   
+ }
+ .headerp{
+    margin-top:5px;
+    margin-bottom:5px;
+    font-family: "GE SS Two Light";
+    font-size:30px;
+ }
+ .ul-menu li{
+    padding-left: 40px;
+    font-family: "GE SS Two Light";
+    font-size:20px;
+    list-style: none;
+ }
+ .ui-social  {
+    margin-left:50px;
+
+ }
+ .fa-brands{
+    color: #fff;
+    border: 1px #fff solid;
+    border-radius: 15px;
+    padding:3px;
+    font-size:15px;
+    margin: 0 2px;
+}
+.fa-1:hover{
+    transition: 0.3s;
+color: yellow;
+}
+.fa-2:hover{    transition: 0.3s;
+    color: blue;
+ }
+ .fa-3:hover{    transition: 0.3s;
+   color: black;
+    }
+ .fa-4:hover{    transition: 0.3s;
+     color:navy;
+  }
+/* Section-2 */
+.content-slid p{
+
+    font-family: "GE SS Two Light";
+    font-size:30px;
+    font-weight: 600;
+    color: #000000;
+}
+ 
+
+
+/* section-3 */
+.contant-item-3{
+    background-image:url(img/555.png)  ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:30vh;
+    position: relative;
+    background-position: center;
+    }
+    /* .img-position{
+        position: absolute;
+     width: inherit;
+        height: 30vh;
+        top: 1px;
+   z-index: 1;
+        opacity: 0.60;
+        background: #354b89
+    } */
+    .contant-item-3 .contant-group {
+  
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+    } 
+   
+  .section-icon-imge{
+    margin-top: -70px;
+  } 
+.contant-group h2{
+  font-family: "GE SS Two Bold";
+font-size:35px;
+font-weight: 500;
+}
+.contant-group p{
+    font-family: "GE SS Two Medium";
+ font-weight: 300;
+ font-size: 20px;
+} 
+/* section-4 */
+ 
+.section-img .item{
+    margin-top: 70px;
+    margin-bottom: 70px;
+    align-items: center;
+}
+.section-img .item p{
+    font-family: "GE SS Two Bold"; 
+    font-weight: 400;
+    font-size: 20px;
+}
+.section-img .item img{
+    width: 100px;
+    height: 100px;
+}
+
+
+/* section-4 */
+ 
+.icon-div{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    display: flex;
+align-items: center;
+justify-content: center;
+}
+.img-icon-group{
+    position: relative;
+    }
+.icon-div .circle i{
+font-size:30px;
+ 
+}
+ .circle{
+    width:70px;
+    height:70px;
+    border-radius: 50%;
+    border-color: #707070;
+    border-width: 1px;
+    border-style: solid;
+display: flex;
+align-items: center;
+justify-content: center;
+ }
+/* section-5 */
+ 
+.item-icons{
+ width:54px;
+    height:54px;
+    border-radius: 50%;
+
+ font-weight: lighter;
+display: flex;
+align-items: center;
+justify-content: center;
+    border: 1px solid #BE5E28;
+}
+.group-p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+ .groups-icon-end p{
+    font-family: "GE SS Two Light";
+    font-size:20px;
+    padding: 2px;
+    font-weight:600;
+ }
+
+
+ .groups-icon-end i{
+    font-size:35px;
+ 
+ 
+ }
+
+
+
+/* footer */
+footer{
+    background-image:url(img/fooo.jpg)  ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:50vh;
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-position: center;
+  
+}
+ 
+.footer-content{
+  
+    display: flex !important;
+    align-items: center !important;
+    flex-direction: column !important;
+    justify-content: center !important; 
+    text-align: center !important;
+   
+}
+ .icon .fa-brands {
+    color: #fff;
+    border: 1px #fff solid;
+    border-radius:50px;
+ padding:8px;
+    margin: 0 5px
+ }
+ .icon .fa-1:hover{
+    color: yellow;
+    }
+ .icon .fa-2:hover{
+        color: blue;
+     }
+ .icon .fa-3:hover{
+       color: black;
+        }
+.icon .fa-4:hover{
+         color:navy;
+      }
+ .footer-content p{
+    font-family: "GE SS Two Bold"; 
+    font-weight: 600;
+    font-size: 23px;
+ }
+
+
+ /* ****************(MEDIAQUERY)******************* */
+  
+ @media (max-width: 767.89px) {
+ header{
+background-image: url(img/imgendnav.png);
+background-size: cover;
+height:480px !important;
+background-repeat: no-repeat;
+    }
+ .header-slider{
+ 
+ margin-top:80px !important;
+    }
+  .header-slider .img-header, .header-slider p, .header-slider h1{
+    padding-right:30px !important;
+ 
+  }
+    .headerp{ 
+        font-family: "GE SS Two Light" !important; 
+        font-weight:500 !important;
+        width: 230px;
+        font-size:15px !important; 
+    }
+
+.img-header{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+}
+.img-header img{
+    margin:2px;
+}
+    h1{
+        font-family: "GE SS Two Medium" !important; 
+        font-weight:500 !important;
+        font-size:26px !important;
+    }
+    #logo2 {
+        display: block !important;
+    }
+  
+    .ul-menu {
+        display: block !important;
+    }
+ 
+    .ul-menu li {
+        line-height: 60px;
+    }
+ 
+    .ui-social {
+        display: flex !important;
+        flex-direction: row;
+    }
+ 
+    #logo {
+        display: none !important;
+    }
+ 
+    .fa-brands {
+        margin: 0 5px;
+    }
+ }
+      .navbar>.container-fluid {
+         margin-top: 2px !important;
+     }
+     .navbar-dark{
+         height:57px;
+     }
+ .navbar-toggler{
+    margin-left: -17px;
+    margin-right: 180px;
+ }
+ @media (max-width: 280px) {
+     .contant-group h2{
+         font-size: 22px;
+     }
+     .contant-item-3{
+         height: 20vh;
+     }
+    .aplee{
+    width: 50%;
+    padding: 10px;
+    }
+    .play{
+        width: 50%;
+        padding: 10px;
+    }
+    .headerp {
+        width: auto!important;
+    }
+    .navbar-toggler{
+        margin-left: -25px!important;
+        margin-right: 92px!important;
+     }
+     .header-slider{
+        margin-top: 50px!important;
+     }
+     .groups-icon-end{
+        height: 630px!important;
+        margin-left: 1px!important;
+        margin-right: 1px!important;
+     }
+     .groups-icon-end p{
+         font-size:20px;
+        text-align: center;
+     }
+     .img-icon-group img{
+        padding-left: 0!important;
+        padding-right: 0!important;
+     }
+ }
+ @media (max-width: 767.89px) {
+     footer{
+         height:25vh;
+     }
+.navbar-dark{
+                background-color: #354B89;
+            }
+ /* section-2 */
+ .section-2{
+max-height: 87px;
+align-items: center;
+display: flex;
+justify-content: center;
+flex-direction: column;
+ }
+ .content-slid{
+ margin-bottom: 20PX;
+ }
+ .content-slid p{
+display: none;
+ }
+ .content-slid .phone{
+    font-family: "GE SS Two Medium"; 
+    font-weight:200;
+    font-size:20px;
+    display: block !important;
+ }
+ .content-slid .phone span{
+    font-family: "GE SS Two bold"; 
+    font-weight:400;
+    font-size:40px;
+    display: block !important;
+ }
+
+/* section-3 */
+.row-group{
+    background-image: url(img/photo-2.png);
+    height: inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img-position{
+ z-index: -1;   
+}
+ .contant-group {
+display: flex;
+align-items: center;
+flex-direction: column;
+text-align: center;
+ 
+justify-content: space-between;
+ }
+ .contant-item-3{
+    background-image:url(img/555.png)  ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:18vh !important;
+    position: relative;
+    background-position: center;
+    }
+ .contant-group h2{
+    font-family: "GE SS Two bold"; 
+ font-weight:600;
+    font-size:15px;
+    width:182px;
+ }
+ .contant-group p{
+    font-family: "GE SS Two Light"; 
+    font-weight:300;
+    width:183px;
+    font-size:13px;
+ }
+ .contant-group p span{
+    display: none;
+ }
+
+ /* section-4 */
+ .section-img .item{
+    margin: 0;
+ }
+ .section-img .section-icon-imge{
+    margin-top: 0px;
+ }
+  .section-icon-imge .a{
+ margin-left: 24px;
+  }
+ .img-icon-group img{
+    box-shadow: inset;
+    height:50vh;
+ align-items: center;
+/* margin-left: 10px;
+margin-right: 10px; */
+ 
+ padding-left: 25px;
+ padding-right: 25px;
+ 
+ }
+ .circle {
+    width: 100px;
+    height: 105px;
+    border-radius: 50%;
+    border-color: #707070;
+    border-width: 1px;
+    border-style: solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon-div .circle i {
+    font-size: 38px;
+}
+ /* section-4 */
+ .groups-icon-end{
+ /* border: 1px solid  #707070; */
+border-left: solid #cbcbcb 1px;
+border-bottom: solid #cbcbcb 1px;
+border-right: solid #cbcbcb 1px;
+ height:560px;
+align-items: center;
+justify-content: center;
+display: flex;
+flex-direction: row;
+ border-radius:7px 7px 10px 10px   ;
+ box-shadow: 0px 20px 20px 15px #eae3e3;
+ margin-left:30px;
+ margin-right: 30px;
+ border: none;
+}
+ .item-icons {
+
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+ margin-bottom: 0px;
+} 
+ }
+ .item-icons img{
+    width: auto;
+ }
+ .group-img{
+    margin-top:25px;
+ }
+ .groups-icon-end p {
+    font-family: "GE SS Two Light";
+    font-size:16 !important;
+    margin-top: 0px;
+  
+}
+
+.footer-content{
+    display: flex !important;
+    align-items: start !important;
+    flex-direction: column !important;
+    justify-content: space-around !important; 
+}
+.section-img .item p {
+    font-family: "GE SS Two Bold";
+    font-weight: 400;
+    font-size: 30px;
+}
+ 
+  @media (max-width:375px) {
+
+    .navbar-dark {
+        height: 32px;
+ width: 375px;
+    }
+    #logo2 {
+        width: 57px;
+        height: 21px;
+  } 
+
+  }
